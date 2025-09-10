@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <Windows.h>
 #include <iomanip>
 #include <string>
@@ -19,7 +19,7 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	int N;
-	cout << "введите количество химический элемент" << endl;
+	cout << "введите количество химических элемент" << endl;
 	cin >> N;
 
 	cin.ignore();
@@ -30,9 +30,9 @@ int main()
 		getline(cin,element[i].title);
 		cout << "введите символ " << i + 1 << " -го химического элемента " << endl;
 		getline(cin, element[i].symbol);
-		cout << "введи порядковый номер " << i + 1 << " -ой окружности" << endl;
+		cout << "введи порядковый номер " << i + 1 << " -го химического элемента" << endl;
 		cin >> element[i].sequencenumber;
-		cout << "введи атомную массу " << i + 1 << " -ой окружности" << endl;
+		cout << "введи атомную массу " << i + 1 << " -го химического элемента" << endl;
 		cin >> element[i].atomicmass;
 		cin.ignore();
 	}
