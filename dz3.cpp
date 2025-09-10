@@ -39,7 +39,7 @@ int main()
 	cout << "все химические элементы" << endl;
 	for (int i = 0;i < N;i++)
 	{
-		cout << setw(5) << "химический элемент " << i + 1 << " -ый  " << endl;
+		cout << setw(5) << "химический элемент " << i + 1 << endl;
 		cout << setw(5) << "название " << element[i].title << endl;
 		cout << setw(5) << "символ " << element[i].symbol << endl;;
 		cout << setw(5) << "порядковый номер " << element[i].sequencenumber << endl;
@@ -48,3 +48,4 @@ int main()
 	}
 
 }
+
